@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: cadastro
+    columns:
+      - name: id
+        tests:
+          - not_null
+      - name: nome
+        tests:
+          - not_null

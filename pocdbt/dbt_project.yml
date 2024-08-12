@@ -32,5 +32,8 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   pocdbt:
     # Config indicated by + and applies to all files under models/example/
-    example:
-      +materialized: view
+    trusted:
+      +materialized: table
+
+model-paths:
+  - models
