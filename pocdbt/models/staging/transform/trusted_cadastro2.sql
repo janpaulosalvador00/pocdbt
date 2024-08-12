@@ -1,8 +1,8 @@
 -- models/cadastro_transformed.sql
 with source as (
     select
-        id,
-        data,
+        id as id,
+        data as data_cadastro,
         {{ capitalize_names('nome') }} as nome
     from {{ ref('cadastro2') }}
 )

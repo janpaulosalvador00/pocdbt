@@ -4,17 +4,35 @@ models:
   - name: cadastro
     columns:
       - name: id
-        tests:
+        data_tests:
           - not_null
       - name: nome
-        tests:
+        data_tests:
           - not_null
 
   - name: cadastro2
     columns:
       - name: id
-        tests:
+        data_tests:
           - not_null
       - name: nome
-        tests:
+        data_tests:
+          - not_null
+
+  - name: trusted_cadastro
+    columns:
+      - name: id
+        data_tests:
+          - not_null
+      - name: nome
+        data_tests:
+          - not_null
+
+  - name: trusted_cadastro2
+    columns:
+      - name: id
+        data_tests:
+          - not_null
+      - name: nome
+        data_tests:
           - not_null
