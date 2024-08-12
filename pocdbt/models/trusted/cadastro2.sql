@@ -3,4 +3,4 @@ select
     data,
     nome
 
-from raw.cadastro
+from raw.cadastro2

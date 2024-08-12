@@ -9,3 +9,12 @@ models:
       - name: nome
         tests:
           - not_null
+
+  - name: cadastro2
+    columns:
+      - name: id
+        tests:
+          - not_null
+      - name: nome
+        tests:
+          - not_null
