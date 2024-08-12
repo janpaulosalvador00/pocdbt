@@ -12,7 +12,7 @@ profiles_dir_path = os.getenv('DBT_PROFILES_DIR', '/path/to/your/default/profile
 
 # Definições dos parâmetros padrão e configuração do DAG
 default_args = {
-    'owner': 'Jan_2156',
+    'owner': 'Jan_2149',
     'retries': 1,
     'retry_delay': timedelta(minutes=5),
 }
@@ -40,7 +40,7 @@ with DAG(
     async_money_to_json = AirbyteTriggerSyncOperator(
         task_id='airbyte_async',
         airbyte_conn_id='airbyte',
-        connection_id='bca6afe7-f11e-4813-9458-aeeb22dd5a8c',
+        connection_id='fba4b160-7965-428b-a170-9dd78bc6eb59',
         asynchronous=True,
     )
 
