@@ -1,0 +1,24 @@
+dbtpoc:
+  target: dev
+  outputs:
+    dev:
+      account: qwa07524.east-us-2.azure.snowflakecomputing.com
+      database: COMPUTE_WH
+      password: '@Test;02@02'
+      role: ACCOUNTADMIN
+      schema: RAW
+      threads: 1
+      host: qwa07524.east-us-2.azure.snowflakecomputing.com
+      type: snowflake
+      user: pocdddbtapp
+      warehouse: SNOW_DBT_POSTGRE
+
+    Postgres_render:
+        type: postgres
+        threads: 1
+        host: dpg-cqaim9bv2p9s73d27ig0-a.oregon-postgres.render.com
+        port: 5432
+        user: postgresql_dbt_app_user
+        pass: 'R9bJV7gYD2GmgShzk7zkmo8HvEB9NbVL'
+        dbname: postgresql_dbt_app
+ 
