@@ -6,6 +6,7 @@ models:
       - name: id
         data_tests:
           - not_null
+        description: teste do meu amigo giovanni
       - name: nome
         data_tests:
           - not_null
@@ -33,6 +34,7 @@ models:
       - name: id
         data_tests:
           - not_null
+        description: teste do meu amigo giovanni
       - name: nome
         data_tests:
           - not_null
